@@ -16,6 +16,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseRouting(); //Per https://github.com/domaindrivendev/Swashbuckle.AspNetCore/issues/2599
 }
 
 app.UseHttpsRedirection();
